@@ -28,8 +28,7 @@ class UserController(
 
     @DeleteMapping("/users/{userId}")
     fun deleteUser(@PathVariable userId: String): String {
-        return userService.deleteUser(userId)
-
+        return userService.deleteUserById(userId)
     }
 
 }

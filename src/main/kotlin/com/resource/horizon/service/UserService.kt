@@ -28,7 +28,7 @@ class UserService(val userRepository: UserRepository) {
         }
     }
 
-    fun deleteUser(@PathVariable userId: String): String {
+    fun deleteUserById(@PathVariable userId: String): String {
         val doesExistByUserId = userRepository.existsByUserId(userId)
         println(doesExistByUserId)
         println(userId)
