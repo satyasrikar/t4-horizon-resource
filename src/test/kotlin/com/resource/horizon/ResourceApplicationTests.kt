@@ -73,18 +73,18 @@ class ResourceApplicationTests {
         Assertions.assertEquals(user, userService!!.updateUser(user))
     }
 
-	@Test
-	fun deleteUserTest(){
-		val userId = "USR0001"
-		val response = "Deleted"
+    @Test
+    fun deleteUserTest() {
+        val userId = "USR0001"
+        val response = "Deleted"
         Mockito.`when`(userRepository!!.existsByUserId(userId))
             .thenReturn(true)
-		Mockito.`when`(userRepository!!.deleteByUserId(userId))
-			.thenReturn(response)
-		Assertions.assertEquals(response, userService!!.deleteUserById(userId))
-	}
+        Mockito.`when`(userRepository!!.deleteByUserId(userId))
+            .thenReturn(response)
+        Assertions.assertEquals(response, userService!!.deleteUserById(userId))
+    }
 
-	@Test
+    @Test
     fun existsByUserIdPassTest() {
         val userId = "USR0001"
         Mockito.`when`(userRepository!!.existsByUserId(userId))
@@ -99,7 +99,6 @@ class ResourceApplicationTests {
             .thenReturn(false)
         Assertions.assertFalse(userRepository!!.existsByUserId(userId))
     }
-
 
 
     @Test
@@ -118,11 +117,54 @@ class ResourceApplicationTests {
         Assertions.assertTrue(userRepository!!.existsByUserId(userEmail))
     }
 
+    @Test
+    fun getAllMotorsTest() {
+        val motor = Motor()
+        motor.motorId = "MOTR0001"
+        motor.motorMake = "Audi"
+        motor.motorModel = "A4"
+        Mockito.`when`(motorRepository!!.findAll()).thenReturn(listOf(motor))
+        Assertions.assertEquals(1, motorService!!.getAllMotors().size)
+    }
 
+    @Test
+    fun getMotorByIdTest() {
+        val motorId = "MOTR0001"
+        val motor = Motor()
+        motor.motorId = "MOTR0001"
+        motor.motorMake = "Audi"
+        motor.motorModel = "A4"
+        Mockito.`when`(motorRepository!!.findByMotorId(motorId)).thenReturn(motor)
+        Assertions.assertEquals(motor, motorService!!.findMotorDetailsById(motorId))
+    }
 
+    @Test
+    fun updateMotorDetailsTest() {
+        val motor = Motor()
+        motor.motorId = "MOTR0001"
+        motor.motorMake = "Audi"
+        motor.motorModel = "A4"
+        Mockito.`when`(motorRepository!!.save(motor)).thenReturn(motor)
+        Assertions.assertEquals(motor, motorService!!.updateMotor(motor))
+    }
 
+    @Test
+    fun addNewMotorTest() {
+        val motor = Motor()
+        motor.motorId = "MOTR0001"
+        motor.motorMake = "Audi"
+        motor.motorModel = "A4"
+        Mockito.`when`(motorRepository!!.save(motor)).thenReturn(motor)
+        Assertions.assertEquals(motor, motorService!!.addNewMotor(motor))
+    }
 
-
+    @Test
+    fun deleteMotorByIdTest() {
+        val motorId = "MOTR0001"
+        val response = "Deleted"
+        Mockito.`when`(motorRepository!!.deleteByMotorId(motorId)).thenReturn(response)
+        Assertions.assertEquals(response, motorService!!.deleteMotorByMotorId(motorId))
+    }
 
 
 }

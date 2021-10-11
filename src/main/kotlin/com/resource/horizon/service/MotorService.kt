@@ -10,6 +10,10 @@ class MotorService (val motorRepository: MotorRepository) {
         return motorRepository.findAll()
     }
 
+    fun addNewMotor(motor: Motor): Motor {
+        return motorRepository.save(motor)
+    }
+
     fun findMotorDetailsById(motorId: String): Motor {
         return motorRepository.findByMotorId(motorId)
     }

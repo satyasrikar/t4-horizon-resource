@@ -16,6 +16,11 @@ class StoreController(
         return motorService.getAllMotors()
     }
 
+    @PostMapping("/motors")
+    fun addNewMotor(@RequestBody motor: Motor) : Motor {
+        return motorService.addNewMotor(motor)
+    }
+
     @GetMapping("/motors/{motorId}")
     fun findMotorById(@PathVariable motorId: String): Motor {
         return motorService.findMotorDetailsById(motorId)
