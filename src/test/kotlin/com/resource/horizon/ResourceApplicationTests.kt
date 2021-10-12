@@ -16,6 +16,8 @@ import org.springframework.boot.test.mock.mockito.MockBean
 @SpringBootTest
 class ResourceApplicationTests {
 
+    //Test Cases using JUnit5 and Mockito
+
     @MockBean
     val userRepository: UserRepository? = null
 
