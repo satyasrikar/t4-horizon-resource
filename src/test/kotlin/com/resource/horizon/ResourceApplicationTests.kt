@@ -119,10 +119,7 @@ class ResourceApplicationTests {
 
     @Test
     fun getAllMotorsTest() {
-        val motor = Motor()
-        motor.motorId = "MOTR0001"
-        motor.motorMake = "Audi"
-        motor.motorModel = "A4"
+        val motor = Motor("MOTR0001", "Audi", "A4")
         Mockito.`when`(motorRepository!!.findAll()).thenReturn(listOf(motor))
         Assertions.assertEquals(1, motorService!!.getAllMotors().size)
     }
@@ -130,17 +127,14 @@ class ResourceApplicationTests {
     @Test
     fun getMotorByIdTest() {
         val motorId = "MOTR0001"
-        val motor = Motor()
-        motor.motorId = "MOTR0001"
-        motor.motorMake = "Audi"
-        motor.motorModel = "A4"
+        val motor = Motor("MOTR0001", "Audi", "A4")
         Mockito.`when`(motorRepository!!.findByMotorId(motorId)).thenReturn(motor)
         Assertions.assertEquals(motor, motorService!!.findMotorDetailsById(motorId))
     }
 
     @Test
     fun updateMotorDetailsTest() {
-        val motor = Motor()
+        val motor = Motor("MOTR0001", "Audi", "A4")
         motor.motorId = "MOTR0001"
         motor.motorMake = "Audi"
         motor.motorModel = "A4"
@@ -150,10 +144,7 @@ class ResourceApplicationTests {
 
     @Test
     fun addNewMotorTest() {
-        val motor = Motor()
-        motor.motorId = "MOTR0001"
-        motor.motorMake = "Audi"
-        motor.motorModel = "A4"
+        val motor = Motor("MOTR0001", "Audi", "A4")
         Mockito.`when`(motorRepository!!.save(motor)).thenReturn(motor)
         Assertions.assertEquals(motor, motorService!!.addNewMotor(motor))
     }
