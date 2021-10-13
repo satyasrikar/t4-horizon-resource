@@ -10,4 +10,5 @@ class Partner {
     var name = ""
     var IRDA = ""
     var insuranceOffered = ""
+    var imageUrl = ""
 }

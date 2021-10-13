@@ -12,6 +12,7 @@ class PartnerService(val partnerRepository: PartnerRepository) {
     }
 
     fun addNewPartner(partner: Partner): Partner {
+        println(partner.imageUrl)
         return partnerRepository.save(partner)
     }
 
