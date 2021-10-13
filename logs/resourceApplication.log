@@ -1,0 +1,19 @@
+"2021-10-13 05:59:10 [main] INFO  c.r.horizon.ResourceApplicationTests - Starting ResourceApplicationTests using Java 11.0.11 on fadednirvana with PID 7724 (started by HP in E:\Horizon India\horizon-resource\horizon)
+""2021-10-13 05:59:10 [main] INFO  c.r.horizon.ResourceApplicationTests - No active profile set, falling back to default profiles: default
+""2021-10-13 05:59:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+""2021-10-13 05:59:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 2 MongoDB repository interfaces.
+""2021-10-13 05:59:15 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+""2021-10-13 05:59:15 [cluster-ClusterId{value='6166285bdf2eaa6fbc4f287f', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:1}] to localhost:27017
+""2021-10-13 05:59:15 [cluster-rtt-ClusterId{value='6166285bdf2eaa6fbc4f287f', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+""2021-10-13 05:59:15 [cluster-ClusterId{value='6166285bdf2eaa6fbc4f287f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=257009700}
+""2021-10-13 05:59:15 [main] INFO  c.r.horizon.ResourceApplicationTests - Started ResourceApplicationTests in 5.795 seconds (JVM running for 8.076)
+""2021-10-13 05:59:55 [main] INFO  c.r.horizon.ResourceApplicationTests - Starting ResourceApplicationTests using Java 11.0.11 on fadednirvana with PID 1980 (started by HP in E:\Horizon India\horizon-resource\horizon)
+""2021-10-13 05:59:55 [main] INFO  c.r.horizon.ResourceApplicationTests - No active profile set, falling back to default profiles: default
+""2021-10-13 05:59:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+""2021-10-13 05:59:56 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 2 MongoDB repository interfaces.
+""2021-10-13 05:59:59 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+""2021-10-13 05:59:59 [cluster-ClusterId{value='61662887f883fe63ffe63f5b', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:3}] to localhost:27017
+""2021-10-13 05:59:59 [cluster-ClusterId{value='61662887f883fe63ffe63f5b', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=19272600}
+""2021-10-13 05:59:59 [cluster-rtt-ClusterId{value='61662887f883fe63ffe63f5b', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:4}] to localhost:27017
+""2021-10-13 05:59:59 [main] INFO  c.r.horizon.ResourceApplicationTests - Started ResourceApplicationTests in 4.923 seconds (JVM running for 6.576)
+"
