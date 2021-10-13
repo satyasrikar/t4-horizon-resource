@@ -450,4 +450,120 @@ Identify and stop the process that's listening on port 8058 or configure this ap
 ""2021-10-12 11:46:16 [cluster-ClusterId{value='6165282f23c16402ab3990df', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=145651100}
 ""2021-10-12 11:46:16 [cluster-rtt-ClusterId{value='6165282f23c16402ab3990df', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:108}] to localhost:27017
 ""2021-10-12 11:46:16 [main] INFO  c.r.horizon.ResourceApplicationTests - Started ResourceApplicationTests in 7.231 seconds (JVM running for 9.584)
+""2021-10-12 16:57:47 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - Starting ResourceApplicationKt using Java 11.0.11 on fadednirvana with PID 7708 (E:\Horizon India\horizon-resource\horizon\target\classes started by HP in E:\Horizon India\horizon-resource\horizon)
+""2021-10-12 16:57:47 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - No active profile set, falling back to default profiles: default
+""2021-10-12 16:57:47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2021-10-12 16:57:47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2021-10-12 16:57:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+""2021-10-12 16:57:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 2 MongoDB repository interfaces.
+""2021-10-12 16:57:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8058 (http)
+""2021-10-12 16:57:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-10-12 16:57:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+""2021-10-12 16:57:49 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-10-12 16:57:49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2181 ms
+""2021-10-12 16:57:50 [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+""2021-10-12 16:57:50 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2021-10-12 16:57:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8058 (http) with context path ''
+""2021-10-12 16:57:53 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - Started ResourceApplicationKt in 6.919 seconds (JVM running for 8.353)
+""2021-10-12 16:57:53 [restartedMain] INFO  c.r.horizon.ResourceApplication - Resource Application Started
+""2021-10-12 16:57:54 [cluster-ClusterId{value='61657136ec54fb0ab47025f2', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:109}] to localhost:27017
+""2021-10-12 16:57:54 [cluster-ClusterId{value='61657136ec54fb0ab47025f2', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3920113500}
+""2021-10-12 16:57:54 [cluster-rtt-ClusterId{value='61657136ec54fb0ab47025f2', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:110}] to localhost:27017
+""2021-10-12 18:00:30 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - Starting ResourceApplicationKt using Java 11.0.11 on fadednirvana with PID 7708 (E:\Horizon India\horizon-resource\horizon\target\classes started by HP in E:\Horizon India\horizon-resource\horizon)
+""2021-10-12 18:00:30 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - No active profile set, falling back to default profiles: default
+""2021-10-12 18:00:32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+""2021-10-12 18:00:32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 1 MongoDB repository interfaces.
+""2021-10-12 18:00:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8058 (http)
+""2021-10-12 18:00:33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-10-12 18:00:33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+""2021-10-12 18:00:33 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-10-12 18:00:33 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2625 ms
+""2021-10-12 18:00:33 [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+""2021-10-12 18:00:33 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2021-10-12 18:00:34 [cluster-ClusterId{value='61657fe9ec54fb0ab47025f3', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:112}] to localhost:27017
+""2021-10-12 18:00:34 [cluster-ClusterId{value='61657fe9ec54fb0ab47025f3', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=997093800}
+""2021-10-12 18:00:34 [cluster-rtt-ClusterId{value='61657fe9ec54fb0ab47025f3', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:111}] to localhost:27017
+""2021-10-12 18:00:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8058 (http) with context path ''
+""2021-10-12 18:00:38 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - Started ResourceApplicationKt in 10.319 seconds (JVM running for 3773.988)
+""2021-10-12 18:00:39 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   DataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+""2021-10-12 18:00:39 [restartedMain] INFO  c.r.horizon.ResourceApplication - Resource Application Started
+""2021-10-12 18:03:17 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - Starting ResourceApplicationKt using Java 11.0.11 on fadednirvana with PID 7708 (E:\Horizon India\horizon-resource\horizon\target\classes started by HP in E:\Horizon India\horizon-resource\horizon)
+""2021-10-12 18:03:17 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - No active profile set, falling back to default profiles: default
+""2021-10-12 18:03:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+""2021-10-12 18:03:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 1 MongoDB repository interfaces.
+""2021-10-12 18:03:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8058 (http)
+""2021-10-12 18:03:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-10-12 18:03:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+""2021-10-12 18:03:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-10-12 18:03:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2287 ms
+""2021-10-12 18:03:19 [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+""2021-10-12 18:03:19 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2021-10-12 18:03:19 [cluster-rtt-ClusterId{value='6165808fec54fb0ab47025f4', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:114}] to localhost:27017
+""2021-10-12 18:03:19 [cluster-ClusterId{value='6165808fec54fb0ab47025f4', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:113}] to localhost:27017
+""2021-10-12 18:03:19 [cluster-ClusterId{value='6165808fec54fb0ab47025f4', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=518873800}
+""2021-10-12 18:03:20 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8058 (http) with context path ''
+""2021-10-12 18:03:20 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - Started ResourceApplicationKt in 3.616 seconds (JVM running for 3935.9)
+""2021-10-12 18:03:20 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2021-10-12 18:03:20 [restartedMain] INFO  c.r.horizon.ResourceApplication - Resource Application Started
+""2021-10-12 18:03:40 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - Starting ResourceApplicationKt using Java 11.0.11 on fadednirvana with PID 7708 (E:\Horizon India\horizon-resource\horizon\target\classes started by HP in E:\Horizon India\horizon-resource\horizon)
+""2021-10-12 18:03:40 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - No active profile set, falling back to default profiles: default
+""2021-10-12 18:03:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+""2021-10-12 18:03:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 MongoDB repository interfaces.
+""2021-10-12 18:03:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8058 (http)
+""2021-10-12 18:03:44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2021-10-12 18:03:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+""2021-10-12 18:03:48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2021-10-12 18:03:48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 8118 ms
+""2021-10-12 18:03:48 [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+""2021-10-12 18:03:48 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+""2021-10-12 18:03:49 [cluster-ClusterId{value='616580acec54fb0ab47025f5', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:115}] to localhost:27017
+""2021-10-12 18:03:49 [cluster-rtt-ClusterId{value='616580acec54fb0ab47025f5', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:116}] to localhost:27017
+""2021-10-12 18:03:49 [cluster-ClusterId{value='616580acec54fb0ab47025f5', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1300330200}
+""2021-10-12 18:03:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8058 (http) with context path ''
+""2021-10-12 18:03:53 [restartedMain] INFO  c.r.horizon.ResourceApplicationKt - Started ResourceApplicationKt in 13.293 seconds (JVM running for 3968.46)
+""2021-10-12 18:03:53 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+""2021-10-12 18:03:53 [restartedMain] INFO  c.r.horizon.ResourceApplication - Resource Application Started
+""2021-10-12 18:06:11 [main] INFO  c.r.horizon.ResourceApplicationTests - Starting ResourceApplicationTests using Java 11.0.11 on fadednirvana with PID 24340 (started by HP in E:\Horizon India\horizon-resource\horizon)
+""2021-10-12 18:06:11 [main] INFO  c.r.horizon.ResourceApplicationTests - No active profile set, falling back to default profiles: default
+""2021-10-12 18:06:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+""2021-10-12 18:06:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 MongoDB repository interfaces.
+""2021-10-12 18:06:21 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+""2021-10-12 18:06:21 [cluster-ClusterId{value='6165814538fe6037e8de0356', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:117}] to localhost:27017
+""2021-10-12 18:06:21 [cluster-rtt-ClusterId{value='6165814538fe6037e8de0356', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:118}] to localhost:27017
+""2021-10-12 18:06:21 [cluster-ClusterId{value='6165814538fe6037e8de0356', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=23524900}
+""2021-10-12 18:06:21 [main] INFO  c.r.horizon.ResourceApplicationTests - Started ResourceApplicationTests in 12.268 seconds (JVM running for 14.99)
 "

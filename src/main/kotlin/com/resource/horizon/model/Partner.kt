@@ -4,14 +4,10 @@ import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
 
 @Document
-class User {
-
+class Partner {
     @Id
-    var userId = ""
+    var partnerId = ""
     var name = ""
-    var address = ""
-    var email = ""
-    var phone = ""
-    var insuranceType = ""
-
+    var IRDA = ""
+    var insuranceOffered = ""
 }
